@@ -1,0 +1,32 @@
+{
+    "version": "0.53.0",
+    "description": "DeepSeek Reasonix - AI-powered code editor",
+    "homepage": "https://github.com/esengine/DeepSeek-Reasonix",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v0.53.0/Reasonix_0.53.0_x64-setup.exe",
+            "hash": "7d43e1cc183d4310d339c330a3eda0973a004af4092a7aa5858c89df6c2aac46",
+            "installer": {
+                "script": "Start-Process 'Reasonix_0.53.0_x64-setup.exe' -ArgumentList '/S' -Wait"
+            },
+            "uninstaller": {
+                "script": "Start-Process \"$dir\\Uninstall Reasonix.exe\" -ArgumentList '/S' -Wait"
+            }
+        }
+    },
+    "bin": "Reasonix.exe",
+    "checkver": {
+        "regex": "desktop-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-$version/Reasonix_${version}_x64-setup.exe",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}
