@@ -9,7 +9,8 @@
             "hash": "b60ee4f3294d7bb6b928c6cab709a64783eb27b5e9e2bb74dafe647a3da60781"
         }
     },
-    "bin": "Reasonix.exe",
+    "extract_dir": "PFiles\\Reasonix",
+    "bin": "reasonix-desktop.exe",
     "checkver": {
         "regex": "desktop-v([\\d.]+)"
     },
