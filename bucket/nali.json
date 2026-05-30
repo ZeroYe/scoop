@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nxtrace/nali/releases/download/v1.7.5/nali-nt_windows_amd64.exe",
-            //"hash": "a0b1e1c157431708446b9d92ebd4690ab793012a408dfa0b76e02644d50b65c2"
+            "hash": "a0b1e1c157431708446b9d92ebd4690ab793012a408dfa0b76e02644d50b65c2"
         },
         "32bit": {
             "url": "https://github.com/nxtrace/nali/releases/download/v1.7.5/nali-nt_windows_386.exe",
-            //"hash": "9c907563018e4ef070225d8eb06d5c57d804bd6c3ab6a7ff1da7ec9b243bd43d"
+            "hash": "9c907563018e4ef070225d8eb06d5c57d804bd6c3ab6a7ff1da7ec9b243bd43d"
         }
     },
     "pre_install": "(Get-ChildItem \"$dir\\nali*.exe\")[0] | Rename-Item -NewName 'nali.exe'",
@@ -19,10 +19,16 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nxtrace/nali/releases/download/v$version/nali-nt_windows_amd64.exe"
+                "url": "https://github.com/nxtrace/nali/releases/download/v$version/nali-nt_windows_amd64.exe",
+                "hash": {
+                    "mode": "download"
+                }
             },
             "32bit": {
-                "url": "https://github.com/nxtrace/nali/releases/download/v$version/nali-nt_windows_386.exe"
+                "url": "https://github.com/nxtrace/nali/releases/download/v$version/nali-nt_windows_386.exe",
+                "hash": {
+                    "mode": "download"
+                }
             }
         }
     }
