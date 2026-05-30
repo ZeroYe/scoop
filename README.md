@@ -2,22 +2,22 @@
 
 [![Tests](https://github.com/ZeroYe/scoop/actions/workflows/ci.yml/badge.svg)](https://github.com/ZeroYe/scoop/actions/workflows/ci.yml) [![Excavator](https://github.com/ZeroYe/scoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/ZeroYe/scoop/actions/workflows/excavator.yml)
 
-My personal [Scoop](https://scoop.sh) bucket.
+我的个人 [Scoop](https://scoop.sh) 软件仓库。
 
-## Apps
+## 包含的软件
 
-| Name  33  * *: 0 * |
-| ------- | ---- |
-| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter |
-| [nali](https://github.com/nxtrace/nali) | An offline tool for querying IP geographic information and CDN provider |
+| 软件 | 说明 |
+| --- | --- |
+| [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 |
+| [nali](https://github.com/nxtrace/nali) | 离线查询 IP 地理信息和 CDN 提供商的工具 |
 
-## How to install
+## 安装方法
 
 ```pwsh
 scoop bucket add ZeroYe-scoop https://github.com/ZeroYe/scoop
-scoop install ZeroYe-scoop/<app-name>
+scoop install ZeroYe-scoop/<软件名>
 ```
 
-## Auto Update
+## 自动更新
 
-This bucket is configured with [Excavator](https://github.com/ScoopInstaller/Excavator) to automatically check for updates every 4 hours.
+本仓库已配置 [Excavator](https://github.com/ScoopInstaller/Excavator)，每 4 小时自动检查更新。
