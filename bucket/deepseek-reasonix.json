@@ -5,14 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v0.53.0/Reasonix_0.53.0_x64-setup.exe",
-            "hash": "7d43e1cc183d4310d339c330a3eda0973a004af4092a7aa5858c89df6c2aac46",
-            "installer": {
-                "script": "Start-Process 'Reasonix_0.53.0_x64-setup.exe' -ArgumentList '/S' -Wait"
-            },
-            "uninstaller": {
-                "script": "Start-Process \"$dir\\Uninstall Reasonix.exe\" -ArgumentList '/S' -Wait"
-            }
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v0.53.0/Reasonix_0.53.0_x64_en-US.msi",
+            "hash": "b60ee4f3294d7bb6b928c6cab709a64783eb27b5e9e2bb74dafe647a3da60781"
         }
     },
     "bin": "Reasonix.exe",
@@ -22,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-$version/Reasonix_${version}_x64-setup.exe",
+                "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-$version/Reasonix_${version}_x64_en-US.msi",
                 "hash": {
                     "mode": "download"
                 }
