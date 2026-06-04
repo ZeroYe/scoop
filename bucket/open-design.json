@@ -1,0 +1,32 @@
+{
+    "version": "0.9.0",
+    "description": "Open Design - Design and prototyping tool for developers",
+    "homepage": "https://github.com/nexu-io/open-design",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.9.0/open-design-0.9.0-win-x64-portable.zip",
+            "hash": "1576e85b4a4cd5d43f7b4dee81bf09629aa3012c95f6529cbdb6789e3205ba17"
+        }
+    },
+    "bin": "Open Design.exe",
+    "shortcuts": [
+        [
+            "Open Design.exe",
+            "Open Design"
+        ]
+    ],
+    "checkver": {
+        "regex": "open-design-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v$version/open-design-${version}-win-x64-portable.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}

@@ -11,6 +11,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 |
 | [nali](https://github.com/nxtrace/nali) | 离线查询 IP 地理信息和 CDN 提供商的工具 |
 | [deepseek-reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek Reasonix - AI 代码编辑器 |
+| [open-design](https://github.com/nexu-io/open-design) | Open Design - 设计和原型工具 |
 
 ## 安装方法
 
