@@ -1,0 +1,44 @@
+{
+    "version": "1.6.9",
+    "description": "A Windows context menu management tool with new menu monitoring",
+    "homepage": "https://github.com/PLFJY/ContextMenuMgr",
+    "license": "GPL-3.0",
+    "notes": [
+        "Run 'ContextMenuManagerPlus.Service.exe install' from PowerShell (as admin) to install the backend service.",
+        "This is the framework-dependent version, which requires .NET 10 Runtime to be installed."
+    ],
+    "suggest": {
+        ".NET Runtime": "extras/windowsdesktop-runtime"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.6.9-Release/ContextMenuMgrPlus-1.6.9-framework-dependent-portable.zip",
+            "hash": "6002538fc8f52da01f29d3fbf4426a949f56fecb83c680edc17610ef504f8f1a"
+        }
+    },
+    "bin": [
+        "ContextMenuManagerPlus.exe",
+        "ContextMenuManagerPlus.Service.exe",
+        "ContextMenuManagerPlus.TrayHost.exe"
+    ],
+    "shortcuts": [
+        [
+            "ContextMenuManagerPlus.exe",
+            "Context Menu Manager Plus"
+        ]
+    ],
+    "checkver": {
+        "regex": "v([\\d.]+)-Release"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v$version-Release/ContextMenuMgrPlus-$version-framework-dependent-portable.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/tag/v$version-Release",
+            "regex": "$basename\\s*\\|\\s*([a-fA-F0-9]{64})"
+        }
+    }
+}
