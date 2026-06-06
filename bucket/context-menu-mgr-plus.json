@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.6.9/ContextMenuMgrPlus-1.6.9-framework-dependent-portable.zip",
-            "hash": "6002538fc8f52da01f29d3fbf4426a949f56fecb83c680edc17610ef504f8f1a"
+            "hash": "b91b5dd6a9e47346e63a556231173a99c37701659fa0b22cd0b5691e1cdfe9f5"
         }
     },
     "bin": [
@@ -38,8 +38,7 @@
             }
         },
         "hash": {
-            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/tag/v$version",
-            "regex": "$basename\\s*\\|\\s*([a-fA-F0-9]{64})"
+            "mode": "download"
         }
     }
 }
