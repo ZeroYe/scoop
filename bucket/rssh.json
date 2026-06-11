@@ -6,10 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/shihuili1218/rssh/releases/download/v0.2.2/rssh-0.2.2-windows-x86_64-portable.zip",
-            "hash": "a267e05deea27220f2e52d1b0dab3bc62268146338fcffee54c8494a1e36abb1"
+            "hash": "a267e05deea27220f2e52d1b0dab3bc62268146338fcffee54c8494a1e36abb1",
+            "extract_dir": "rssh-0.2.2-windows-x86_64-portable"
         }
     },
-    "bin": "rssh.exe",
+    "bin": [
+        "rssh.exe",
+        "rssh-cli.exe"
+    ],
     "shortcuts": [
         [
             "rssh.exe",
@@ -21,6 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/shihuili1218/rssh/releases/download/v$version/rssh-$version-windows-x86_64-portable.zip",
+                "extract_dir": "rssh-$version-windows-x86_64-portable",
                 "hash": {
                     "mode": "download"
                 }
