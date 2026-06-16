@@ -1,13 +1,13 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "A cross-platform SSH application with desktop GUI, CLI, and AI diagnostics",
     "homepage": "https://github.com/shihuili1218/rssh",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shihuili1218/rssh/releases/download/v0.2.4/rssh-0.2.4-windows-x86_64-portable.zip",
-            "hash": "70169a2e98ddda8ab445a0f152b4585f970ec858b826cdf7980b90ca39b82cbe",
-            "extract_dir": "rssh-0.2.4-windows-x86_64-portable"
+            "url": "https://github.com/shihuili1218/rssh/releases/download/v0.2.5/rssh-0.2.5-windows-x86_64-portable.zip",
+            "hash": "525e44dec1ec3db844e6d599f29d40196f103c169d995575e7ae6adbdade4741",
+            "extract_dir": "rssh-0.2.5-windows-x86_64-portable"
         }
     },
     "bin": [
