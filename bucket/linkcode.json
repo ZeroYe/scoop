@@ -5,14 +5,21 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.7.0/LinkCode-0.7.0-x64.zip",
-            "hash": "d5f11d81e54ee67d6afbab752be76bea100a0a9819777f7db9ba1c25a00c7191"
+            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.7.0/LinkCode-0.7.0-x64.exe",
+            "hash": "6befc28aaf36154b1efb54f2126b277098a9a0a65dfeb3fdc550bd5a302fece4"
         },
         "arm64": {
-            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.7.0/LinkCode-0.7.0-arm64.zip",
-            "hash": "270d1dac6dd0a6fd0de54ab1567d43e1eed2548ea49ee91db2b594ff6097dadc"
+            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.7.0/LinkCode-0.7.0-arm64.exe",
+            "hash": "d6ed80733a684f6ef167fa0382f2f0ea9d64831fdd742a2f5e661b070d75771d"
         }
     },
+    "installer": {
+        "script": [
+            "7z x \"$dir\\$fname\" -o\"$dir\" -y | Out-Null",
+            "Get-ChildItem \"$dir\\`$PLUGINSDIR\" -Filter '*.7z' | ForEach-Object { 7z x \"$_\" -o\"$dir\" -y | Out-Null }"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\$fname\", \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force -ErrorAction SilentlyContinue",
     "bin": "LinkCode.exe",
     "shortcuts": [
         [
@@ -24,13 +31,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/arcboxlabs/linkcode/releases/download/v$version/LinkCode-$version-x64.zip",
+                "url": "https://github.com/arcboxlabs/linkcode/releases/download/v$version/LinkCode-$version-x64.exe",
                 "hash": {
                     "mode": "download"
                 }
             },
             "arm64": {
-                "url": "https://github.com/arcboxlabs/linkcode/releases/download/v$version/LinkCode-$version-arm64.zip",
+                "url": "https://github.com/arcboxlabs/linkcode/releases/download/v$version/LinkCode-$version-arm64.exe",
                 "hash": {
                     "mode": "download"
                 }
