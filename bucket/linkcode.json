@@ -1,16 +1,16 @@
 {
-    "version": "0.15.0",
+    "version": "0.17.0",
     "description": "One workspace for all your coding agents (Claude Code, Codex, OpenCode, Pi, Grok Build)",
     "homepage": "https://github.com/arcboxlabs/linkcode",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.15.0/LinkCode-0.15.0-x64.exe",
-            "hash": "ec5ff4487418de05b996b3046f71458149a208f71d92a85aae483a04d3ddfbf4"
+            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.17.0/LinkCode-0.17.0-x64.exe",
+            "hash": "eb9302dd0a8502e26042aff26569e698c7608bf38f1b1166d3b6a232340f6425"
         },
         "arm64": {
-            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.15.0/LinkCode-0.15.0-arm64.exe",
-            "hash": "d78bb8ac56871578f91e25a8764d385adbd56ec1e19a830941658eb1beb5b917"
+            "url": "https://github.com/arcboxlabs/linkcode/releases/download/v0.17.0/LinkCode-0.17.0-arm64.exe",
+            "hash": "37575529cb0ab7e441e65682c95f9b834c1c13ffd950a73b845106f5b7795e1d"
         }
     },
     "installer": {
