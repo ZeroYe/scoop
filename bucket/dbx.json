@@ -1,16 +1,16 @@
 {
-    "version": "0.5.94",
+    "version": "0.5.95",
     "description": "Lightweight cross-platform database client for 70+ databases with built-in AI and MCP Server",
     "homepage": "https://github.com/t8y2/dbx",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.94/DBX_0.5.94_x64-portable.zip",
-            "hash": "1656055b6067c78e361a1d9b32408bf166c2d3579f161937c859042814c42080"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.95/DBX_0.5.95_x64-portable.zip",
+            "hash": "e5bbf6314f7fbd04431dfebd7a4724cb9450ee6f401e93105906d765d2b898bc"
         },
         "arm64": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.94/DBX_0.5.94_arm64-portable.zip",
-            "hash": "07ed5f1bc331673bcd4b6be3cf1353ae81df52de3fc44be76f0788a0d9a0cce6"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.95/DBX_0.5.95_arm64-portable.zip",
+            "hash": "1ed55b28242e996e9f8174f4f94524a4f967e4d0f7e1e2772e06b3e715a078c5"
         }
     },
     "bin": "dbx.exe",
