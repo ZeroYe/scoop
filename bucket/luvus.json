@@ -1,0 +1,24 @@
+{
+    "version": "0.13.2",
+    "description": "Mission control for your AI agents",
+    "homepage": "https://luvus.dev",
+    "license": "AGPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/RizRiyz/luvus/releases/download/v0.13.2/luvus-v0.13.2-x86_64-pc-windows-msvc.zip",
+            "hash": "803e07298ca8a06458fb5daa921d745c6d8674867ac9e31c48d9096f971d5d5c"
+        }
+    },
+    "bin": "luvus.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/RizRiyz/luvus/releases/download/v$version/luvus-v$version-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}

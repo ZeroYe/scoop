@@ -22,7 +22,8 @@
 | 7 | [nali](https://github.com/nxtrace/nali) | 离线 IP 地理信息查询 | 🔧 开发工具 |
 | 8 | [dbx](https://github.com/t8y2/dbx) | 跨平台数据库客户端（支持 70+ 数据库） | 🗄 数据库工具 |
 | 9 | [waku](https://github.com/egoist/waku) | AI 编程代理原生客户端 | 🤖 AI 工具 |
-| 10 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
+| 10 | [luvus](https://github.com/RizRiyz/luvus) | AI 智能体任务控制台 | 🤖 AI 工具 |
+| 11 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
 
 ## 🚀 快速开始
 
