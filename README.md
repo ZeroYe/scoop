@@ -24,7 +24,8 @@
 | 9 | [waku](https://github.com/egoist/waku) | AI 编程代理原生客户端 | 🤖 AI 工具 |
 | 10 | [luvus](https://github.com/RizRiyz/luvus) | AI 智能体任务控制台 | 🤖 AI 工具 |
 | 11 | [moeka](https://github.com/MoekaProject/community) | 优雅的 Markdown 编辑器 | ✍️ 文本编辑 |
-| 12 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
+| 12 | [drawio](https://github.com/jgraph/drawio-desktop) | 图表绘制工具（diagrams.net） | 🎨 开发工具 |
+| 13 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
 
 ## 🚀 快速开始
 
