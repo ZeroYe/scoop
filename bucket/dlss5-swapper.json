@@ -1,12 +1,12 @@
 {
-    "version": "2.2.5",
+    "version": "2.2.6",
     "description": "Install, manage, and restore DLSS 5 across games and emulators with automatic game detection",
     "homepage": "https://github.com/rakanki911/DLSS5-Swapper",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rakanki911/DLSS5-Swapper/releases/download/v2.2.5/DLSS5-Swapper-2.2.5-portable.exe",
-            "hash": "923d3b913e60deac5fb49416cd75e409da0398814d59839721bd8673a887cf63"
+            "url": "https://github.com/rakanki911/DLSS5-Swapper/releases/download/v2.2.6/DLSS5-Swapper-2.2.6-portable.exe",
+            "hash": "cf9f3cc1df8b809558abca66c8e50812fc1a69a7053b0e060d62e9beb138aca2"
         }
     },
     "installer": {
