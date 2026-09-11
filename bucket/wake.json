@@ -1,0 +1,36 @@
+{
+    "version": "0.6.1",
+    "description": "All your AI agent sessions in one place — browse, search, resume",
+    "homepage": "https://github.com/iAmCorey/Wake",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/iAmCorey/Wake/releases/download/v0.6.1/wake-0.6.1-windows-x86_64.zip",
+            "hash": "2b3484f81e718ef1042c0c511a7773e6c097fb591553cc32c1b579694188813d",
+            "extract_dir": "wake-0.6.1-windows-x86_64"
+        }
+    },
+    "bin": [
+        "Wake.exe",
+        "wake-cli.exe",
+        "wake-mcp.exe"
+    ],
+    "shortcuts": [
+        [
+            "Wake.exe",
+            "Wake"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/iAmCorey/Wake/releases/download/v$version/wake-$version-windows-x86_64.zip",
+                "extract_dir": "wake-$version-windows-x86_64",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}

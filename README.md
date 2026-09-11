@@ -27,7 +27,8 @@
 | 12 | [drawio](https://github.com/jgraph/drawio-desktop) | 图表绘制工具（diagrams.net） | 🎨 开发工具 |
 | 13 | [dnsglobe](https://github.com/514-labs/dnsglobe) | DNS 全球传播检测 TUI | 🌐 网络工具 |
 | 14 | [dlss5-swapper](https://github.com/rakanki911/DLSS5-Swapper) | DLSS 5 游戏替换管理器 | 🎮 游戏工具 |
-| 15 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
+| 15 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 |
+| 16 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
 
 ## 🚀 快速开始
 
