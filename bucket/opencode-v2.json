@@ -4,8 +4,9 @@
     "homepage": "https://opencode.ai",
     "license": "MIT",
     "notes": [
-        "OpenCode v2 standalone CLI binary (official Windows package managers are not supported, this manifest wraps the official binary).",
-        "Run 'opencode' to start the TUI, or 'opencode auth login' to connect a model provider."
+        "OpenCode v2 standalone CLI binary, fetched from the official v2 distribution endpoint (opencode.ai/files/bin).",
+        "The official docs state Windows package managers are not supported; this manifest only wraps the official binary.",
+        "This is unrelated to the 'opencode' (v1) manifest in the main bucket. Both shims 'opencode' and 'opencode2' point to v2; use 'opencode2' if you also keep v1 installed."
     ],
     "architecture": {
         "64bit": {
@@ -17,7 +18,16 @@
             "hash": "bfe549a8e5fd7eca1df4445f39c6071706916fe88a494565cf31154edbb89a71"
         }
     },
-    "bin": "opencode.exe",
+    "bin": [
+        [
+            "opencode.exe",
+            "opencode"
+        ],
+        [
+            "opencode.exe",
+            "opencode2"
+        ]
+    ],
     "checkver": {
         "url": "https://registry.npmjs.org/@opencode/cli/latest",
         "jsonpath": "$.version"
