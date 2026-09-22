@@ -1,0 +1,41 @@
+{
+    "version": "2.0.13",
+    "description": "The open source AI coding agent, available as a terminal-based interface, desktop app, or web app",
+    "homepage": "https://opencode.ai",
+    "license": "MIT",
+    "notes": [
+        "OpenCode v2 standalone CLI binary (official Windows package managers are not supported, this manifest wraps the official binary).",
+        "Run 'opencode' to start the TUI, or 'opencode auth login' to connect a model provider."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://opencode.ai/files/bin/2.0.13/opencode-windows-x64.zip",
+            "hash": "de5d1443fb53c9d1a948366fd75ec1d8cd574b2372b349f2ec0bb3465229f8bb"
+        },
+        "arm64": {
+            "url": "https://opencode.ai/files/bin/2.0.13/opencode-windows-arm64.zip",
+            "hash": "bfe549a8e5fd7eca1df4445f39c6071706916fe88a494565cf31154edbb89a71"
+        }
+    },
+    "bin": "opencode.exe",
+    "checkver": {
+        "url": "https://registry.npmjs.org/@opencode/cli/latest",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://opencode.ai/files/bin/$version/opencode-windows-x64.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            },
+            "arm64": {
+                "url": "https://opencode.ai/files/bin/$version/opencode-windows-arm64.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}

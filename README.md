@@ -30,7 +30,8 @@
 | 15 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 |
 | 16 | [paseo](https://github.com/getpaseo/paseo) | 多编码 agent 编排（桌面 + 移动端） | 🤖 AI 工具 |
 | 17 | [tty7](https://github.com/l0ng-ai/tty7) | Rust 终端工作台（持久会话 / SSH / Agent） | 🖥 终端工具 |
-| 18 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
+| 18 | [opencode](https://opencode.ai) | 开源 AI 编码 agent（v2 独立 CLI） | 🤖 AI 工具 |
+| 19 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 |
 
 ## 🚀 快速开始
 
