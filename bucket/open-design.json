@@ -1,14 +1,21 @@
 {
-    "version": "0.9.0",
+    "version": "0.24.0",
     "description": "Open Design - Design and prototyping tool for developers",
     "homepage": "https://github.com/nexu-io/open-design",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.9.0/open-design-0.9.0-win-x64-portable.zip",
-            "hash": "1576e85b4a4cd5d43f7b4dee81bf09629aa3012c95f6529cbdb6789e3205ba17"
+            "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.24.0/open-design-0.24.0-win-x64-setup.exe",
+            "hash": "c86c0f155291c70ff73c4f8e57cd6df2fb65670048bc04c446c7367a8c819c3a"
         }
     },
+    "installer": {
+        "script": [
+            "7z x \"$dir\\$fname\" -o\"$dir\" -y | Out-Null",
+            "Get-ChildItem \"$dir\\`$PLUGINSDIR\" -Filter '*.7z' | Sort-Object Name | ForEach-Object { 7z x \"$_\" -o\"$dir\" -y | Out-Null }"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\$fname\", \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force -ErrorAction SilentlyContinue",
     "bin": "Open Design.exe",
     "shortcuts": [
         [
@@ -22,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v$version/open-design-${version}-win-x64-portable.zip",
+                "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v$version/open-design-${version}-win-x64-setup.exe",
                 "hash": {
                     "mode": "download"
                 }
