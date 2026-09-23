@@ -17,10 +17,10 @@
 | 2 | [usbtree](https://github.com/gnomeria/usbtree) | USB 设备拓扑可视化 | 🛠 系统工具 | 0.1.1 |
 | 3 | [rssh](https://github.com/shihuili1218/rssh) | 跨平台 SSH 连接管理器 | 🌐 网络工具 | 0.3.1 |
 | 4 | [linkcode](https://github.com/arcboxlabs/linkcode) | AI 编程代理统一工作台 | 🤖 AI 工具 | 0.30.0 |
-| 5 | [deepseek-reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI 代码编辑器 | 🤖 AI 工具 | 1.38.11 |
+| 5 | [deepseek-reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI 代码编辑器 | 🤖 AI 工具 | 1.38.12 |
 | 6 | [open-design](https://github.com/nexu-io/open-design) | 设计和原型工具 | 🎨 开发工具 | 0.24.0 |
 | 7 | [nali](https://github.com/nxtrace/nali) | 离线 IP 地理信息查询 | 🔧 开发工具 | 1.7.5 |
-| 8 | [dbx](https://github.com/t8y2/dbx) | 跨平台数据库客户端（支持 70+ 数据库） | 🗄 数据库工具 | 0.6.20 |
+| 8 | [dbx](https://github.com/t8y2/dbx) | 跨平台数据库客户端（支持 70+ 数据库） | 🗄 数据库工具 | 0.6.21 |
 | 9 | [waku](https://github.com/egoist/waku) | AI 编程代理原生客户端 | 🤖 AI 工具 | 0.1.19 |
 | 10 | [luvus](https://github.com/RizRiyz/luvus) | AI 智能体任务控制台 | 🤖 AI 工具 | 0.14.2 |
 | 11 | [moeka](https://github.com/MoekaProject/community) | 优雅的 Markdown 编辑器 | ✍️ 文本编辑 | 0.1.20 |
