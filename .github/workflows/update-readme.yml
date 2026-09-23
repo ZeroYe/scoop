@@ -1,0 +1,67 @@
+name: Update README versions
+
+on:
+  schedule:
+    # Excavator runs at :20 every 4 hours; run 30 minutes later to pick up its commits.
+    # A push trigger would not fire for Excavator's commits, because they are pushed
+    # with the default GITHUB_TOKEN (which does not trigger further workflows).
+    - cron: '50 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  readme:
+    name: Sync versions
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@main
+
+      - name: Sync manifest versions into README table
+        shell: pwsh
+        run: |
+          $raw = Get-Content README.md -Raw
+          $nl = if ($raw -match "`r`n") { "`r`n" } else { "`n" }
+          $lines = $raw -split "`r?`n"
+          $out = foreach ($line in $lines) {
+            # Rebuild each software row from its leading cells, then append the
+            # version taken from the matching manifest. Any pre-existing version
+            # column (and anything after it) is intentionally dropped and rewritten.
+            if ($line -match '^\| (\d+) \| \[([^\]]+)\]\(([^)]+)\) \| (.+?) \| (.+?) \|') {
+              $num  = $Matches[1]
+              $name = $Matches[2]
+              $url  = $Matches[3]
+              $desc = $Matches[4]
+              $cat  = $Matches[5]
+              $manifest = "bucket/$name.json"
+              $ver = if (Test-Path $manifest) {
+                (Get-Content $manifest -Raw | ConvertFrom-Json).version
+              } else {
+                '?'
+              }
+              "| $num | [$name]($url) | $desc | $cat | $ver |"
+            } else {
+              $line
+            }
+          }
+          $new = ($out -join $nl)
+          if ($new -ne $raw) {
+            Set-Content README.md -Value $new -NoNewline -Encoding utf8
+            Write-Host "README updated"
+          } else {
+            Write-Host "README already in sync"
+          }
+
+      - name: Commit changes
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if (git diff --cached --quiet) {
+            Write-Host "nothing to commit"
+          } else {
+            git commit -m "docs: sync versions in README"
+            git push
+          }
