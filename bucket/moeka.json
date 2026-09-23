@@ -20,7 +20,9 @@
             "Moeka"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/MoekaProject/community"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

@@ -24,7 +24,9 @@
             "Waku"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/egoist/waku"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

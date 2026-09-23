@@ -16,7 +16,9 @@
             "tty7"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/l0ng-ai/tty7"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

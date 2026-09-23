@@ -10,7 +10,9 @@
         }
     },
     "bin": "luvus.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/RizRiyz/luvus"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
