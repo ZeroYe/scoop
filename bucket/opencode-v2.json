@@ -1,21 +1,22 @@
 {
-    "version": "2.0.14",
+    "version": "2.0.15",
     "description": "The open source AI coding agent, available as a terminal-based interface, desktop app, or web app",
     "homepage": "https://opencode.ai",
     "license": "MIT",
     "notes": [
         "OpenCode v2 CLI. Start it with the 'opencode2' command.",
         "The 'opencode' command is left untouched for the v1 manifest in the main bucket, so v1 and v2 can coexist.",
+        "Upgrade with 'scoop update opencode-v2'. Do NOT run the built-in 'opencode2 upgrade': it only knows curl/npm/pnpm/bun/yarn/vp/brew and would replace the binary outside Scoop's control.",
         "The official docs state Windows package managers are not supported; this manifest only wraps the official v2 binary from opencode.ai/files/bin."
     ],
     "architecture": {
         "64bit": {
-            "url": "https://opencode.ai/files/bin/2.0.14/opencode-windows-x64.zip",
-            "hash": "3c8cae4fff1305205247b99081509c3291f514d444a40bb6545843ec2d0ec9bb"
+            "url": "https://opencode.ai/files/bin/2.0.15/opencode-windows-x64.zip",
+            "hash": "9c5fd842e9b1dc1cbd0bac8073cd1c7f685912bf040d313c3dc01fdbd8f371bf"
         },
         "arm64": {
-            "url": "https://opencode.ai/files/bin/2.0.14/opencode-windows-arm64.zip",
-            "hash": "5ca7e0e5a0cfcf263822a18ab420da4018445ac39c34b89d13bc7e66b18e4d46"
+            "url": "https://opencode.ai/files/bin/2.0.15/opencode-windows-arm64.zip",
+            "hash": "aedaa8ec47b14b8f89d283f4c5296870c4ebd337a5b3c42adec33a3efa4e8a50"
         }
     },
     "bin": [
