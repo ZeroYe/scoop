@@ -1,27 +1,50 @@
 {
-    "version": "0.53.0",
+    "version": "1.38.11",
     "description": "DeepSeek Reasonix - AI-powered code editor",
     "homepage": "https://github.com/esengine/DeepSeek-Reasonix",
     "license": "MIT",
+    "notes": [
+        "Start the desktop app with 'reasonix', or the CLI with 'reasonix-cli'.",
+        "Upgrade with 'scoop update deepseek-reasonix'. The in-app updater writes its own copies under versions/ and would drift from Scoop's managed files."
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v0.53.0/Reasonix_0.53.0_x64_en-US.msi",
-            "hash": "b60ee4f3294d7bb6b928c6cab709a64783eb27b5e9e2bb74dafe647a3da60781"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.38.11/Reasonix-windows-amd64.zip",
+            "hash": "a348a27e2c66356adb775f4779008961dfd2371a12f7dcbc9ed25a9d226a1f09"
+        },
+        "arm64": {
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.38.11/Reasonix-windows-arm64.zip",
+            "hash": "4ed97f9748d055d6a3b3ac1b5f28637649ea7027c918c31b498eaf7c235dd2c9"
         }
     },
-    "extract_dir": "PFiles\\Reasonix",
-    "bin": "reasonix-desktop.exe",
+    "bin": [
+        [
+            "Reasonix.exe",
+            "reasonix"
+        ],
+        "reasonix-cli.exe"
+    ],
+    "shortcuts": [
+        [
+            "Reasonix.exe",
+            "Reasonix"
+        ]
+    ],
     "checkver": {
-        "regex": "desktop-v([\\d.]+)"
+        "url": "https://api.github.com/repos/esengine/DeepSeek-Reasonix/releases/latest",
+        "regex": "\"tag_name\":\\s*\"desktop-v([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-$version/Reasonix_${version}_x64_en-US.msi",
-                "hash": {
-                    "mode": "download"
-                }
+                "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v$version/Reasonix-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v$version/Reasonix-windows-arm64.zip"
             }
+        },
+        "hash": {
+            "mode": "download"
         }
     }
 }
