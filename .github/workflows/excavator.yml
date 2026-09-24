@@ -1,9 +1,12 @@
 on:
   workflow_dispatch:
   schedule:
-    # run every 4 hours
-    - cron: '20 */4 * * *'
+    # run every 15 minutes (offset by 5 to dodge top-of-hour congestion)
+    - cron: '5,20,35,50 * * * *'
 name: Excavator
+concurrency:
+  group: excavator
+  cancel-in-progress: false
 jobs:
   excavate:
     name: Excavate

@@ -46,4 +46,4 @@ scoop install ZeroYe-scoop/<软件名>
 
 ## ⚡ 自动更新
 
-本仓库已配置 [Excavator](https://github.com/ScoopInstaller/Excavator)，每 4 小时自动检查更新。
+本仓库已配置 [Excavator](https://github.com/ScoopInstaller/Excavator)，每 15 分钟自动检查更新（GitHub Actions 定时任务可能有几分钟延迟）。

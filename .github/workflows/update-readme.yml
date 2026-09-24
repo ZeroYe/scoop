@@ -2,14 +2,18 @@ name: Update README versions
 
 on:
   schedule:
-    # Excavator runs at :20 every 4 hours; run 30 minutes later to pick up its commits.
+    # Excavator runs at :05/:20/:35/:50; run 5 minutes later to pick up its commits.
     # A push trigger would not fire for Excavator's commits, because they are pushed
     # with the default GITHUB_TOKEN (which does not trigger further workflows).
-    - cron: '50 */4 * * *'
+    - cron: '10,25,40,55 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: readme
+  cancel-in-progress: false
 
 jobs:
   readme:
