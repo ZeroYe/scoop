@@ -27,12 +27,12 @@
 | 12 | [drawio](https://github.com/jgraph/drawio-desktop) | 图表绘制工具（diagrams.net） | 🎨 开发工具 | 31.5.2 |
 | 13 | [dnsglobe](https://github.com/514-labs/dnsglobe) | DNS 全球传播检测 TUI | 🌐 网络工具 | 0.5.0 |
 | 14 | [dlss5-swapper](https://github.com/rakanki911/DLSS5-Swapper) | DLSS 5 游戏替换管理器 | 🎮 游戏工具 | 2.2.7 |
-| 15 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 | 0.8.3 |
+| 15 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 | 0.8.4 |
 | 16 | [paseo](https://github.com/getpaseo/paseo) | 多编码 agent 编排（桌面 + 移动端） | 🤖 AI 工具 | 0.9.2 |
 | 17 | [tty7](https://github.com/l0ng-ai/tty7) | Rust 终端工作台（持久会话 / SSH / Agent） | 🖥 终端工具 | 26.9.3 |
 | 18 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode2`，与 v1 并存） | 🤖 AI 工具 | 2.0.16 |
 | 19 | [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于 Electron 的音乐播放器 | 🎵 音乐播放 | 2.12.6 |
-| 20 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.71 |
+| 20 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.87 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 
 ## 🚀 快速开始
