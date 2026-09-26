@@ -1,0 +1,38 @@
+{
+    "version": "0.11.5",
+    "description": "Run multiple terminal coding agents on the same task, each in its own real terminal",
+    "homepage": "https://github.com/yicheng47/runner",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yicheng47/runner/releases/download/v0.11.5/Runner-Setup-0.11.5.20260926.0427-x64.exe",
+            "hash": "334dbbe2a4df1bfc9439709c98beec08c38b1450342b51d9785fd0ee26cdc6f3",
+            "innosetup": true
+        }
+    },
+    "bin": [
+        "Runner.exe",
+        "runner-agent-cli.exe"
+    ],
+    "shortcuts": [
+        [
+            "Runner.exe",
+            "Runner"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/yicheng47/runner",
+        "regex": "Runner-Setup-(?<version>\\d+\\.\\d+\\.\\d+)\\.(?<stamp>[\\d.]+)-x64\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yicheng47/runner/releases/download/v$version/Runner-Setup-$version.$matchStamp-x64.exe",
+                "innosetup": true,
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}
