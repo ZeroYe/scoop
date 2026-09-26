@@ -33,8 +33,7 @@
 | 18 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode2`，与 v1 并存） | 🤖 AI 工具 | 2.0.18 |
 | 19 | [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于 Electron 的音乐播放器 | 🎵 音乐播放 | 2.12.6 |
 | 20 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.134 |
-| 21 | [runner](https://github.com/yicheng47/runner) | 终端 AI 代理协作（Claude Code / Codex / Copilot CLI / pi） | 🤖 AI 工具 | 0.11.5 |
-| 22 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
+| 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 
 ## 🚀 快速开始
 
