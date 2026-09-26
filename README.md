@@ -20,7 +20,7 @@
 | 5 | [deepseek-reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI 代码编辑器 | 🤖 AI 工具 | 1.39.0 |
 | 6 | [open-design](https://github.com/nexu-io/open-design) | 设计和原型工具 | 🎨 开发工具 | 0.24.0 |
 | 7 | [nali](https://github.com/nxtrace/nali) | 离线 IP 地理信息查询 | 🔧 开发工具 | 1.7.5 |
-| 8 | [dbx](https://github.com/t8y2/dbx) | 跨平台数据库客户端（支持 70+ 数据库） | 🗄 数据库工具 | 0.6.23 |
+| 8 | [dbx](https://github.com/t8y2/dbx) | 跨平台数据库客户端（支持 70+ 数据库） | 🗄 数据库工具 | 0.6.24 |
 | 9 | [waku](https://github.com/egoist/waku) | AI 编程代理原生客户端 | 🤖 AI 工具 | 0.1.19 |
 | 10 | [luvus](https://github.com/RizRiyz/luvus) | AI 智能体任务控制台 | 🤖 AI 工具 | 0.14.2 |
 | 11 | [moeka](https://github.com/MoekaProject/community) | 优雅的 Markdown 编辑器 | ✍️ 文本编辑 | 0.1.20 |
@@ -32,7 +32,7 @@
 | 17 | [tty7](https://github.com/l0ng-ai/tty7) | Rust 终端工作台（持久会话 / SSH / Agent） | 🖥 终端工具 | 26.9.3 |
 | 18 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode2`，与 v1 并存） | 🤖 AI 工具 | 2.0.18 |
 | 19 | [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于 Electron 的音乐播放器 | 🎵 音乐播放 | 2.12.6 |
-| 20 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.94 |
+| 20 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.103 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 
 ## 🚀 快速开始
