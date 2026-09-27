@@ -3,6 +3,14 @@
     "description": "Universal provider proxy for OpenAI Codex & Claude Code",
     "homepage": "https://opencodex.me/",
     "license": "MIT",
+    "notes": [
+        "Start the proxy with 'ocx start', then open the dashboard at the printed URL (default http://127.0.0.1:10100/).",
+        "The bundled web dashboard needs OPENCODEX_GUI_DIST. This manifest points it at the shipped gui/dist, because the upstream standalone binary cannot locate it by itself (it resolves its own path through bun's virtual filesystem).",
+        "After upgrading, restart the proxy ('ocx restart') so it picks up the environment variable."
+    ],
+    "env_set": {
+        "OPENCODEX_GUI_DIST": "$dir\\gui\\dist"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/lidge-jun/opencodex/releases/download/v2.68.0/ocx-2.68.0-bun-windows-x64.zip",
