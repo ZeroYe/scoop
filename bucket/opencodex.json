@@ -1,5 +1,5 @@
 {
-    "version": "2.73.0",
+    "version": "2.74.0",
     "description": "Universal provider proxy for OpenAI Codex & Claude Code",
     "homepage": "https://opencodex.me/",
     "license": "MIT",
@@ -13,8 +13,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lidge-jun/opencodex/releases/download/v2.73.0/ocx-2.73.0-bun-windows-x64.zip",
-            "hash": "fd39943f51f84c226633d54c6982db923de2f6240fbe198e19f57a361c0ad287"
+            "url": "https://github.com/lidge-jun/opencodex/releases/download/v2.74.0/ocx-2.74.0-bun-windows-x64.zip",
+            "hash": "9d13371a3b41b4dca94997b3f9db86136e33c4d1e9431c91b8129ebf1cda36af"
         }
     },
     "bin": "ocx.exe",
