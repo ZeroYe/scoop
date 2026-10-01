@@ -29,9 +29,9 @@
 | 14 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 | 0.8.5 |
 | 15 | [paseo](https://github.com/getpaseo/paseo) | 多编码 agent 编排（桌面 + 移动端） | 🤖 AI 工具 | 0.10.2 |
 | 16 | [tty7](https://github.com/l0ng-ai/tty7) | Rust 终端工作台（持久会话 / SSH / Agent） | 🖥 终端工具 | 26.9.4 |
-| 17 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode2`，与 v1 并存） | 🤖 AI 工具 | 2.0.20 |
+| 17 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode2`，与 v1 并存） | 🤖 AI 工具 | 2.0.21 |
 | 18 | [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于 Electron 的音乐播放器 | 🎵 音乐播放 | 2.12.6 |
-| 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.538 |
+| 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.550 |
 | 20 | [opencodex](https://github.com/lidge-jun/opencodex) | 通用 LLM 供应商代理（供 Codex / Claude Code 使用，命令 `ocx`） | 🤖 AI 工具 | 2.74.0 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 
