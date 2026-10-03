@@ -1,7 +1,7 @@
 {
     "version": "0.9.3",
-    "description": "Runtime for coding agents: a multi-pane terminal workspace",
-    "homepage": "https://github.com/herdrdev/herdr",
+    "description": "Agent multiplexer that lives in your terminal",
+    "homepage": "https://herdr.dev",
     "license": "Apache-2.0",
     "notes": [
         "Start the terminal workspace with the 'herdr' command."
@@ -14,14 +14,16 @@
     },
     "bin": "herdr.exe",
     "checkver": {
-        "github": "https://github.com/herdrdev/herdr"
+        "url": "https://herdr.dev/latest.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/herdrdev/herdr/releases/download/v$version/herdr-windows-x86_64.zip",
                 "hash": {
-                    "mode": "download"
+                    "url": "https://herdr.dev/latest.json",
+                    "jsonpath": "$.releases['$version'].sha256.windows-x86_64"
                 }
             }
         }
