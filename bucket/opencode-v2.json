@@ -4,9 +4,8 @@
     "homepage": "https://opencode.ai",
     "license": "MIT",
     "notes": [
-        "OpenCode v2 CLI. Start it with the 'opencode2' command.",
-        "The 'opencode' command is left untouched for the v1 manifest in the main bucket, so v1 and v2 can coexist.",
-        "Upgrade with 'scoop update opencode-v2'. Do NOT run the built-in 'opencode2 upgrade': it only knows curl/npm/pnpm/bun/yarn/vp/brew and would replace the binary outside Scoop's control.",
+        "OpenCode v2 CLI. Start it with the 'opencode' command.",
+        "Upgrade with 'scoop update opencode-v2'. Do NOT run the built-in 'opencode upgrade': it only knows curl/npm/pnpm/bun/yarn/vp/brew and would replace the binary outside Scoop's control.",
         "The official docs state Windows package managers are not supported; this manifest only wraps the official v2 binary from opencode.ai/files/bin."
     ],
     "architecture": {
@@ -19,12 +18,7 @@
             "hash": "c7566e380622ab57dc2be78306d8a08cbdc4925e87cc3fed784ffb83d5b10a0b"
         }
     },
-    "bin": [
-        [
-            "opencode.exe",
-            "opencode2"
-        ]
-    ],
+    "bin": "opencode.exe",
     "checkver": {
         "url": "https://registry.npmjs.org/@opencode/cli/latest",
         "jsonpath": "$.version"
