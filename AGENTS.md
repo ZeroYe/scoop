@@ -168,11 +168,3 @@ scoop uninstall <app>
 - **新建文件务必 CRLF 且以换行结尾**，见上文硬性规则。
 - **`checkver` 走 GitHub API**，未认证时容易限流；批量检查建议配置 `GITHUB_TOKEN`。
 
-## 当前已知偏差
-
-截至 2026-10-03，CI 的 Tests 工作流持续失败（已在干净 clone 中复现：`Tests Passed: 26, Failed: 2`），与新增应用无关：
-
-- `bucket/dnsglobe.json` — 文件末尾缺少换行 → 触发 `files end with a newline`。
-- `bucket/open-design.json` — `autoupdate` 的 URL 使用了 `${version}` → schema 校验报 3 个错误。
-
-修好这两处 CI 即应转绿；修复后请删除本节。
