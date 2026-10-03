@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v$version/open-design-${version}-win-x64-setup.exe",
+                "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v$version/open-design-$version-win-x64-setup.exe",
                 "hash": {
                     "mode": "download"
                 }
