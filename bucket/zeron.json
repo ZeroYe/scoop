@@ -1,0 +1,36 @@
+{
+    "version": "0.2.102",
+    "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents",
+    "homepage": "https://zeron.sh",
+    "license": "MIT",
+    "notes": [
+        "Zeron keeps its data in \"$env:LOCALAPPDATA\\Zeron\" and updates its own executable from GitHub releases. Set ZERON_AUTO_UPDATE=0 to keep the Scoop-managed build in place until \"scoop update zeron\".",
+        "On Windows only the desktop app and its CLI are supported; \"zeron daemon\" needs launchd or systemd."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zeronsh/zeron/releases/download/v0.2.102/zeron-0.2.102-windows-x86_64.zip",
+            "hash": "3f7fd50651682860be52278d91347a9fc1016a22ce2f217cf4288bb539eb7a33"
+        }
+    },
+    "bin": "zeron.exe",
+    "shortcuts": [
+        [
+            "zeron.exe",
+            "Zeron"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zeronsh/zeron"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zeronsh/zeron/releases/download/v$version/zeron-$version-windows-x86_64.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}

@@ -34,6 +34,7 @@
 | 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.690 |
 | 20 | [opencodex](https://github.com/lidge-jun/opencodex) | 通用 LLM 供应商代理（供 Codex / Claude Code 使用，命令 `ocx`） | 🤖 AI 工具 | 2.76.0 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
+| 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.102 |
 
 ## 🚀 快速开始
 
