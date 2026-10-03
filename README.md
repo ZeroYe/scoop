@@ -35,6 +35,7 @@
 | 20 | [opencodex](https://github.com/lidge-jun/opencodex) | 通用 LLM 供应商代理（供 Codex / Claude Code 使用，命令 `ocx`） | 🤖 AI 工具 | 2.76.0 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 | 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.102 |
+| 23 | [herdr](https://github.com/herdrdev/herdr) | 编码 agent 运行时（多 pane 终端工作台） | 🖥 终端工具 | 0.9.3 |
 
 ## 🚀 快速开始
 
