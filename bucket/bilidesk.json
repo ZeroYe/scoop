@@ -1,0 +1,36 @@
+{
+    "version": "1.2.3",
+    "description": "Third-party desktop client for Bilibili with video playback, danmaku and SponsorBlock",
+    "homepage": "https://github.com/ABING1111/BiliDesk",
+    "license": "GPL-3.0",
+    "notes": [
+        "BiliDesk keeps its settings, logs and image cache in \"$env:LOCALAPPDATA\\BiliDesk\"; uninstalling the Scoop app leaves that folder behind.",
+        "The built-in update check only compares against GitHub Releases and opens the download page in your browser: run \"scoop update bilidesk\" to upgrade the installed copy."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ABING1111/BiliDesk/releases/download/v1.2.3/BiliDesk-1.2.3-portable.zip",
+            "hash": "55ee8b039d17bc4a9e46dcb7941732df0241553b43a6215544d4a16ff57c7fcf"
+        }
+    },
+    "bin": "BiliDesk.exe",
+    "shortcuts": [
+        [
+            "BiliDesk.exe",
+            "BiliDesk"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ABING1111/BiliDesk"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ABING1111/BiliDesk/releases/download/v$version/BiliDesk-$version-portable.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}
