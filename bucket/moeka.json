@@ -1,16 +1,16 @@
 {
-    "version": "0.1.24",
+    "version": "0.1.25",
     "description": "An elegant Markdown editor",
     "homepage": "https://moeka.app/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MoekaProject/community/releases/download/v0.1.24/Moeka-windows-x86_64.zip",
-            "hash": "0d49b6568f27a6fc07e5044ab8b674c72703eca4722cf3f3e6d04386ed9be867"
+            "url": "https://github.com/MoekaProject/community/releases/download/v0.1.25/Moeka-windows-x86_64.zip",
+            "hash": "5f22a45ad97112934d8f6d158d5e891b6aa8f4b5356ce85196408467769ce947"
         },
         "arm64": {
-            "url": "https://github.com/MoekaProject/community/releases/download/v0.1.24/Moeka-windows-arm64.zip",
-            "hash": "daa37977ebc73b9805176e6a6da81b3f9e3bb81ff63945636f8ccce816971fb7"
+            "url": "https://github.com/MoekaProject/community/releases/download/v0.1.25/Moeka-windows-arm64.zip",
+            "hash": "5702841c6822b15d2e263e2ea58a3630e66bc1c3c52b2827c06c5d467fc4cb12"
         }
     },
     "bin": "Moeka.exe",
