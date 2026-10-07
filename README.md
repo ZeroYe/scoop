@@ -37,6 +37,7 @@
 | 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.104 |
 | 23 | [herdr](https://github.com/herdrdev/herdr) | 编码 agent 运行时（多 pane 终端工作台） | 🖥 终端工具 | 0.9.3 |
 | 24 | [bilidesk](https://github.com/ABING1111/BiliDesk) | 哔哩哔哩第三方桌面客户端（视频 / 弹幕 / SponsorBlock） | 🎬 影音播放 | 1.2.5 |
+| 25 | [monocode](https://github.com/hardbeat920/monocode) | AI 编码 agent 桌面客户端 | 🤖 AI 工具 | 0.8.0 |
 
 ## 🚀 快速开始
 

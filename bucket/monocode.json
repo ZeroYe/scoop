@@ -1,0 +1,40 @@
+{
+    "version": "0.8.0",
+    "description": "Desktop UI for your coding agents (Claude Code, Codex, Cursor, OpenCode and more)",
+    "homepage": "https://github.com/hardbeat920/monocode",
+    "license": "MIT",
+    "notes": [
+        "MonoCode drives coding agent CLIs that are already installed and logged in (Claude Code, Codex, Cursor, OpenCode, Pi, omp, fx, Hermes Agent).",
+        "The upstream Windows release only ships an NSIS installer, so this manifest unpacks it; the installer's WebView2 bootstrap is skipped (Windows 11 already includes the WebView2 Runtime)."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hardbeat920/monocode/releases/download/v0.8.0/MonoCode_0.8.0_x64-setup.exe",
+            "hash": "76103d84b182e0767f1fb8485cb37cf257fa88a34a9e1251766659c1e08fd1d6"
+        }
+    },
+    "installer": {
+        "script": "7z x \"$dir\\$fname\" -o\"$dir\" -y | Out-Null"
+    },
+    "post_install": "Remove-Item \"$dir\\$fname\", \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force -ErrorAction SilentlyContinue",
+    "bin": "monocode.exe",
+    "shortcuts": [
+        [
+            "monocode.exe",
+            "MonoCode"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hardbeat920/monocode"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hardbeat920/monocode/releases/download/v$version/MonoCode_$version_x64-setup.exe",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
+}
