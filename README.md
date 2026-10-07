@@ -31,7 +31,7 @@
 | 16 | [tty7](https://github.com/l0ng-ai/tty7) | Rust 终端工作台（持久会话 / SSH / Agent） | 🖥 终端工具 | 26.9.4 |
 | 17 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode`） | 🤖 AI 工具 | 2.0.24 |
 | 18 | [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于 Electron 的音乐播放器 | 🎵 音乐播放 | 2.12.6 |
-| 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.1097 |
+| 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.1099 |
 | 20 | [opencodex](https://github.com/lidge-jun/opencodex) | 通用 LLM 供应商代理（供 Codex / Claude Code 使用，命令 `ocx`） | 🤖 AI 工具 | 2.79.0 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 | 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.104 |
