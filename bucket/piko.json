@@ -1,0 +1,44 @@
+{
+    "version": "1.2.0",
+    "description": "A fast, cross-platform PikPak client for Android, Windows and macOS",
+    "homepage": "https://github.com/NihilDigit/piko",
+    "license": "AGPL-3.0-or-later",
+    "notes": "Data (sign-in, settings, cache) is kept in \"$env:USERPROFILE\\.piko\" rather than beside the executable, so Scoop upgrades keep it.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/NihilDigit/piko/releases/download/v1.2.0/piko-windows-x64-1.2.0.7z",
+            "hash": "c8c10de6521f23c3c1172fecd1329046b68e2d6dbd38919fdbb7368d7d6e1dcd",
+            "extract_dir": "Piko"
+        },
+        "arm64": {
+            "url": "https://github.com/NihilDigit/piko/releases/download/v1.2.0/piko-windows-arm64-1.2.0.7z",
+            "hash": "e87d445bbdb06a657836e32a3a76d12456f0da5b37e32daae6e0957bcc3afade",
+            "extract_dir": "Piko"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\portable\" -Force -ErrorAction SilentlyContinue",
+    "bin": "Piko.exe",
+    "shortcuts": [
+        [
+            "Piko.exe",
+            "Piko"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NihilDigit/piko/releases/download/v$version/piko-windows-x64-$version.7z",
+                "extract_dir": "Piko"
+            },
+            "arm64": {
+                "url": "https://github.com/NihilDigit/piko/releases/download/v$version/piko-windows-arm64-$version.7z",
+                "extract_dir": "Piko"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt",
+            "regex": "$sha256\\s+$basename"
+        }
+    }
+}
