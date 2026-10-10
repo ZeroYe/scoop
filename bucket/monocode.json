@@ -1,5 +1,5 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Desktop UI for your coding agents (Claude Code, Codex, Cursor, OpenCode and more)",
     "homepage": "https://github.com/hardbeat920/monocode",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hardbeat920/monocode/releases/download/v0.11.0/MonoCode_0.11.0_x64-setup.exe",
-            "hash": "9b301bd0bea6f17871239d7ad04337aff9e9030b764d1301c6e9dd9377adcb56"
+            "url": "https://github.com/hardbeat920/monocode/releases/download/v0.12.0/MonoCode_0.12.0_x64-setup.exe",
+            "hash": "9ca0835c4df3c9ab942cf7ac08c7cff08c66aaf60a2742bf4b7b9a143cd3e2b1"
         }
     },
     "installer": {
