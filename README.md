@@ -13,7 +13,7 @@
 
 | # | 软件 | 说明 | 类别 | 版本 |
 |---|------|------|------|------|
-| 1 | [context-menu-mgr-plus](https://github.com/PLFJY/ContextMenuMgr) | Windows 右键菜单管理 | 🛠 系统工具 | 1.7.8 |
+| 1 | [context-menu-mgr-plus](https://github.com/PLFJY/ContextMenuMgr) | Windows 右键菜单管理 | 🛠 系统工具 | 1.7.7 |
 | 2 | [usbtree](https://github.com/gnomeria/usbtree) | USB 设备拓扑可视化 | 🛠 系统工具 | 0.1.1 |
 | 3 | [rssh](https://github.com/shihuili1218/rssh) | 跨平台 SSH 连接管理器 | 🌐 网络工具 | 0.3.1 |
 | 4 | [linkcode](https://github.com/arcboxlabs/linkcode) | AI 编程代理统一工作台 | 🤖 AI 工具 | 0.30.0 |
@@ -26,12 +26,12 @@
 | 11 | [drawio](https://github.com/jgraph/drawio-desktop) | 图表绘制工具（diagrams.net） | 🎨 开发工具 | 32.4.1 |
 | 12 | [dnsglobe](https://github.com/514-labs/dnsglobe) | DNS 全球传播检测 TUI | 🌐 网络工具 | 0.5.0 |
 | 13 | [dlss5-swapper](https://github.com/rakanki911/DLSS5-Swapper) | DLSS 5 游戏替换管理器 | 🎮 游戏工具 | 2.2.9 |
-| 14 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 | 0.9.3 |
+| 14 | [wake](https://github.com/iAmCorey/Wake) | AI agent 会话统一管理（浏览/搜索/恢复） | 🤖 AI 工具 | 0.9.4 |
 | 15 | [paseo](https://github.com/getpaseo/paseo) | 多编码 agent 编排（桌面 + 移动端） | 🤖 AI 工具 | 0.11.2 |
 | 16 | [tty7](https://github.com/l0ng-ai/tty7) | Rust 终端工作台（持久会话 / SSH / Agent） | 🖥 终端工具 | 26.10.0 |
 | 17 | [opencode-v2](https://opencode.ai/v2/docs) | 开源 AI 编码 agent v2（命令 `opencode`） | 🤖 AI 工具 | 2.0.29 |
 | 18 | [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于 Electron 的音乐播放器 | 🎵 音乐播放 | 2.12.6 |
-| 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.1250 |
+| 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.1256 |
 | 20 | [opencodex](https://github.com/lidge-jun/opencodex) | 通用 LLM 供应商代理（供 Codex / Claude Code 使用，命令 `ocx`） | 🤖 AI 工具 | 2.86.0 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 | 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.113 |
