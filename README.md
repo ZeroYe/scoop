@@ -36,8 +36,8 @@
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
 | 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.113 |
 | 23 | [herdr](https://github.com/herdrdev/herdr) | 编码 agent 运行时（多 pane 终端工作台） | 🖥 终端工具 | 0.9.5 |
-| 24 | [bilidesk](https://github.com/ABING1111/BiliDesk) | 哔哩哔哩第三方桌面客户端（视频 / 弹幕 / SponsorBlock） | 🎬 影音播放 | 1.3.0 |
-| 25 | [monocode](https://github.com/hardbeat920/monocode) | AI 编码 agent 桌面客户端 | 🤖 AI 工具 | 0.13.0 |
+| 24 | [bilidesk](https://github.com/ABING1111/BiliDesk) | 哔哩哔哩第三方桌面客户端（视频 / 弹幕 / SponsorBlock） | 🎬 影音播放 | 1.3.1 |
+| 25 | [monocode](https://github.com/hardbeat920/monocode) | AI 编码 agent 桌面客户端 | 🤖 AI 工具 | 0.14.0 |
 | 26 | [piko](https://github.com/NihilDigit/piko) | PikPak 网盘第三方客户端（视频播放 / 下载 / 链接解析） | 🎬 影音播放 | 1.2.0 |
 
 ## 🚀 快速开始
