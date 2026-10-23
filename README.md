@@ -34,7 +34,7 @@
 | 19 | [magpie-ai](https://github.com/yetone/magpie) | 多 agent 模型统一管理（托盘 / CLI，命令 `magpie`） | 🤖 AI 工具 | 0.1.1327 |
 | 20 | [opencodex](https://github.com/lidge-jun/opencodex) | 通用 LLM 供应商代理（供 Codex / Claude Code 使用，命令 `ocx`） | 🤖 AI 工具 | 2.91.0 |
 | 21 | [tailspin](https://github.com/bensadeh/tailspin) | 日志文件高亮工具 | 🔧 开发工具 | 7.0.0 |
-| 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.117 |
+| 22 | [zeron](https://github.com/zeronsh/zeron) | AI 编码代理控制平面（桌面 + CLI） | 🤖 AI 工具 | 0.2.118 |
 | 23 | [herdr](https://github.com/herdrdev/herdr) | 编码 agent 运行时（多 pane 终端工作台） | 🖥 终端工具 | 0.9.5 |
 | 24 | [bilidesk](https://github.com/ABING1111/BiliDesk) | 哔哩哔哩第三方桌面客户端（视频 / 弹幕 / SponsorBlock） | 🎬 影音播放 | 1.3.2 |
 | 25 | [monocode](https://github.com/hardbeat920/monocode) | AI 编码 agent 桌面客户端 | 🤖 AI 工具 | 0.16.0 |
