@@ -1,12 +1,12 @@
 {
-    "version": "32.6.1",
+    "version": "32.6.10",
     "description": "Diagram drawing application (draw.io desktop)",
     "homepage": "https://www.diagrams.net",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/draw.io-32.6.1-windows.zip",
-            "hash": "41291ad0c06469c183b65793e7604dcb83a6d21d8e339a333790cb1d7576a2ed"
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.6.10/draw.io-32.6.10-windows.zip",
+            "hash": "ca01af1ebcb8a9cc7383c1c5d6f11ea90ee030e563063b611978584ff70fb4d6"
         }
     },
     "bin": [
