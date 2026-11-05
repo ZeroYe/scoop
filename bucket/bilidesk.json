@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ABING1111/BiliDesk/releases/download/v1.6.2/BiliDesk-1.6.2-portable.zip",
-            "hash": "c95271f83d220ab31188014b4ebbaa73d9fc31d3dc52a5af322c2fcbcaa105a1"
+            "hash": "ba173762ff4290e835102d0c04a36369ee0c9eb4191e31120910a2b7b1d6f83f"
         }
     },
     "bin": "BiliDesk.exe",
