@@ -1,5 +1,5 @@
 {
-    "version": "1.6.3",
+    "version": "1.6.5",
     "description": "Third-party desktop client for Bilibili with video playback, danmaku and SponsorBlock",
     "homepage": "https://github.com/ABING1111/BiliDesk",
     "license": "GPL-3.0",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ABING1111/BiliDesk/releases/download/v1.6.3/BiliDesk-1.6.3-portable.zip",
-            "hash": "6b3b9924a0abf4eae6e35aa97b8af9ab034279efc0ecf27bbeed738f25b638f3"
+            "url": "https://github.com/ABING1111/BiliDesk/releases/download/v1.6.5/BiliDesk-1.6.5-portable.zip",
+            "hash": "baa36a3b1fdd1bb5011abece9ffbd22a1545bf26627668b2ebfddf5c3af6f401"
         }
     },
     "bin": "BiliDesk.exe",
