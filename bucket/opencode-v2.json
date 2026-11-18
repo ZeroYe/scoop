@@ -1,5 +1,5 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.2",
     "description": "The open source AI coding agent, available as a terminal-based interface, desktop app, or web app",
     "homepage": "https://opencode.ai",
     "license": "MIT",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://opencode.ai/files/bin/2.3.0/opencode-windows-x64.zip",
-            "hash": "2e14eee53f4abad803d55fdc472c1b12dc3802d687ae204f81e7908bd2ab1895"
+            "url": "https://opencode.ai/files/bin/2.3.2/opencode-windows-x64.zip",
+            "hash": "8ad59f1992a0594d8bd72b5ed3be1f5bfffcd9d1756853eec7e5d3141c25be1f"
         },
         "arm64": {
-            "url": "https://opencode.ai/files/bin/2.3.0/opencode-windows-arm64.zip",
-            "hash": "86217da9616447404b96c599bee08a1c2d932c92fb58b0f60cfe835e2b61926a"
+            "url": "https://opencode.ai/files/bin/2.3.2/opencode-windows-arm64.zip",
+            "hash": "13dabbf6874c8abfc7ff44bee0e64c3758e918a0e27f56f74173c353d56a842d"
         }
     },
     "bin": "opencode.exe",
