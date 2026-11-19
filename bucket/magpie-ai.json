@@ -1,17 +1,17 @@
 {
-    "version": "0.1.4499",
+    "version": "0.1.4503",
     "description": "Every agent's model in one place - pick the model each coding agent uses, from the tray",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
     "notes": "The build is unsigned; Windows SmartScreen may prompt before the first run.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4499/magpie-windows-amd64.exe",
-            "hash": "d46c4355a99636e1d143415b6062da19c08f0de85b9055e701f55e43f2a99017"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4503/magpie-windows-amd64.exe",
+            "hash": "f07eef16848bc2039f692a81c9867ac89912b0246cb2059d34e53d2d028add0e"
         },
         "arm64": {
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4499/magpie-windows-arm64.exe",
-            "hash": "f1c489007f5a9f9ce110e86bbd8b1b393217ed7c6f5b76662ce769381f5e829c"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4503/magpie-windows-arm64.exe",
+            "hash": "ac0695c9f2b744a08c2180a383d9073164f7ab2d235797631787004e26199a43"
         }
     },
     "pre_install": "(Get-ChildItem \"$dir\\magpie-windows-*.exe\")[0] | Rename-Item -NewName 'magpie.exe'",
